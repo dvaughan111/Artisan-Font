@@ -1,6 +1,7 @@
 @font-face {
     font-family: 'the artisan';
-    src: url('https://bespoke-custard-9d4294.netlify.app/the-artisan.woff2') format('woff2');
+    src: local('the artisan'), /* Try local name first */
+         url('https://bespoke-custard-9d4294.netlify.app/the-artisan.woff2') format('woff2'); /* Keep format as woff2 */
     font-weight: normal;
     font-style: normal;
     font-display: swap;
