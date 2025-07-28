@@ -1,1 +1,7 @@
-
+@font-face {
+    font-family: 'the artisan'; /* Keep this name */
+    src: url('https://bespoke-custard-9d4294.netlify.app/the-artisan.woff2') format('woff2'); /* This URL is confirmed working */
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
